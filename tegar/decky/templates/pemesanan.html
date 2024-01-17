@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+{% load humanize %}
+{% block content %}
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="breadcrumb-content">
+            <ul>
+                <li><a href="{% url 'beranda' %}">Beranda</a></li>
+                <li class="active">Pemesanan</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock content %}
